@@ -1,0 +1,180 @@
+/* ---------------------------------------------- */
+/* 헤더                                            */
+.header__inner{
+}
+.category-box{
+  background-color: var(--color-blue-600);
+  width: 110px;
+  height: 116px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.button--category{
+  align-items: center;
+  justify-content: center;
+}
+.category-title{
+  margin: 5px;
+  font-size: 12px;
+  color: var(--color-white);
+  
+}
+
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+/* 내비게이션                                        */
+.navigation__inner{
+  display: flex;
+  flex-direction: column;
+}
+.navigation{
+  border: 1px solid black;
+  width: 1020px;
+  height: 520px;
+  margin: 0 auto;
+}
+.navigation-list-box{
+  display: flex;
+  align-items: center;
+}
+.fashion-stuff-list{
+  display: flex;
+}
+.women-fashion-list{
+  display: flex;
+}
+.women-fashion{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.women-clothes-list{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+}
+.women-underwear-list{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+}
+/* ---------------------------------------------- */
+
+
+/* ---------------------------------------------- */
+/* 메인 콘텐츠                                       */
+/* ---------------------------------------------- */
+/* 메인 콘텐츠 영역의 최소 높이 설정 */
+.main{
+  min-height: 52rem;
+}
+
+
+/* ---------------------------------------------- */
+/* 푸터                                            */
+.footer-menu-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-gray-200);
+  color: var(--color-gray-800);
+  width: 100%;
+  height: 40px;
+  gap: 3px;
+  text-align: center;
+}
+
+.footer-menu-list .bold{
+  font-weight: bold;
+}
+.footer-information-box{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-information{
+  display: flex;
+  position: relative;
+  gap: 30px;
+  
+}
+.footer-information-logo{
+  position: relative;
+  top: 30px
+}
+
+.footer-coupang-information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  gap: 5px;
+  color: var(--color-gray-800);
+}
+.service-information.bold{
+  font-weight: bold;
+}
+.coupang-service-center-information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  color: var(--color-gray-800);
+
+  gap: 5px;
+
+}
+.service-information.number{
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--color-gray-800);
+}
+
+.coupang-bank-guid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  color: var(--color-gray-800);
+}
+.coupang-bank-guid .bold{
+  font-weight: bold;
+}
+.bank-guid{
+  margin: 3px;
+}
+
+/* 카피라이트영역 */
+
+.footer-coupang-copylight-box{
+  background-color: var(--color-gray-900);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.copylight{
+  width: 1020px;
+  color: var(--color-gray-200);
+  margin: 16px;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+.coupang-copylight-sns{
+  position: absolute;
+  left: 1280px;
+  bottom: 30px;
+}
+
+/* ---------------------------------------------- */
