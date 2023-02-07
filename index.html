@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/stylesheets/main.css" />
+  <link rel="stylesheet" href="assets/style.css">
   <script type="module" src="./js/main.js"></script>
   </head>
 
@@ -32,77 +33,110 @@
 
     <nav class="navigation">
       <!-- 내비게이션 영역 -->
-      <!-- 내비게이션 제목 -->
-      <div class="navigation-list-box">
-        <ul class="navigation__list">
-          <ul class="fashion-stuff-list">
-            <ul class="women-fashion-list">
-              <span class="women-fashion">패션의류/잡화</span>
-              <li class="women-clothes-list">
-                <span class="women-clothes">여성패션</span>
-                <ul class="men-fashion-list">
-                  <span class="men-fashion">남성패션</span>
-                </ul>
-                <ul class="kid-fashion-list">
-                  <span class="kid-fashion">유아동패션</span>
-                </ul>
+      <div class="navigation-category-box-1Depth-list">
+        <ul class="category-list">
+          <li class="category-list-title">
+              <li class="fassion-list">
+                <i class="icon-clothes"></i>
+                <span class="fassion">패션의류/잡화</span>
               </li>
-              <li class="women-underwear-list">
-                <span class="women-wear">의류</span>
-                <span class="women-underwear">속옷/잠옷</span>
-                <span class="women-shoes">신발</span>
+              <li class="beauty-list">
+                <i class="icon-beauty"></i>
+                <span class="beauty">뷰티</span>
+              </li> 
+              <li class="child-list">
+                <i class="icon-baby"></i>
+                <span class="child">출산유아동</span>
               </li>
-       
-            </ul>
-          </ul>
+              <li class="food-list">
+                <i class="icon-foods"></i>
+                <span class="food">식품</span>
+              </li>
+              <li class="kitchen-product-list">
+                <i class="icon-kitchenware"></i>
+                <span class="kitchen-product">주방용품</span>
+              </li>
+              <li class="life-product-list">
+                <i class="icon-houseware"></i>
+                <span class="life-product">생활용품</span>
+              </li>
+              <li class="home-interior-list">
+                <i class="icon-interior"></i>
+                <span class="home-interior">홈인테리어</span>
+              </li>
+              <li class="home-digital-list">
+                <i class="icon-appliances"></i>
+                <span class="home-digital">가전디지털</span>
+              </li>
+              <li class="sports-list">
+                <i class="icon-sports"></i>
+                <span class="sports">스포츠</span>
+              </li>
+              <li class="car-product-list">
+                <i class="icon-car"></i>
+                <span class="car-product">자동차용품</span>
+              </li>
+              <li class="book-record-list">
+                <i class="icon-book"></i>
+                <span class="book-record">도서음반</span>
+              </li>
+              <li class="office-list">
+                <i class="icon-appliances"></i>
+                <span class="office">문구오피스</span>
+              </li>
+              <li class="animal-product-list">
+                <i class="icon-pet"></i>
+                <span class="animal-product">반려동물</span>
+              </li>
+              <li class="travel-ticket-list">
+                <i class="icon-travel"></i>
+                <span class="travel-ticket">여행티켓</span>
+              </li>
+              <li class="theme-list">
+                <i class="icon-theme"></i>
+                <span class="theme">테마관</span>
+                <img src="./assets/icon/new.svg" alt="">
+              </li>
+           </li>
         </ul>
       </div>
-        <!-- 카테고리별 내비게이션(메뉴) 영역 -->
-        <div class="navigation__inner">
-          <ul class="beauty-list">
-            <span class="beauty">뷰티</span>
-          </ul>
-          <ul class="child-list">
-            <span class="child">출산유아동</span>
-          </ul>
-          <ul class="food-list">
-            <span class="food">식품</span>
-          </ul>
-          <ul class="kitchen-product-list">
-            <span class="kitchen-product">주방용품</span>
-          </ul>
-          <ul class="life-product-list">
-            <span class="life-product">생활용품</span>
-          </ul>
-          <ul class="home-interior-list">
-            <span class="home-interior">홈인테리어</span>
-          </ul>
-          <ul class="home-digital-list">
-            <span class="home-digital">가전디지털</span>
-          </ul>
-          <ul class="sports-list">
-            <span class="sports">스포츠</span>
-          </ul>
-          <ul class="car-product-list">
-            <span class="car-product">자동차용품</span>
-          </ul>
-          <ul class="book-record-list">
-            <span class="book-record">도서음반</span>
-          </ul>
-          <ul class="office-list">
-            <span class="office">문구오피스</span>
-          </ul>
-          <ul class="animal-product-list">
-            <span class="animal-product">반려동물</span>
-          </ul>
-          <ul class="travel-ticket-list">
-            <span class="travel-ticket">여행티켓</span>
-          </ul>
-          <ul class="theme-list">
-            <span class="theme">테마관</span>
-          </ul>
-        </div>
-       </ul>
+      
+      <!-- 내비게이션 제목 -->
+
+      <!-- 카테고리별 내비게이션(메뉴) 영역 -->
+      <div class="navigation__inner-2Depth">
+        <ul class="category-inner-2Depth-list">
+          <li class="women-passion-list">
+              <span class="women-passion">여성패션</span>
+          </li>
+          <li class="men-passion-list">
+            <span class="men-passion">남성패션</span>
+        </li>
+         <li class="kids-passion-list">
+        <span class="kids-passion">유아동패션</span>
+        </li>
+        </ul>
+      </div>
+
+      <!-- 카테고리별 내비게이션(메뉴 상세) 영역 -->
+      <div class="navigation__inner-3Depth">
+        <ul class="category-inner-3Depth-list">
+          <li class="women-clothes-passion-list">
+            <a href="/">
+            <span class="women-clothes-passion">의류</span>
+           </a>
+          </li>
+           <li class="women-underwear-passion-list">
+             <a href="/">
+             <span class="women-underwear-passion">속옷/잠옷</span>
+            </a>
+          </li>
+          <li class="women-shoes-passion-list">
+            <a href="/">
+              <span class="women-shoes-passion">신발</span>
+            </a>
+          </li>
+        </ul>
     </nav>
 
     <main class="main">
@@ -116,43 +150,43 @@
         <ul class="footer-menu-list">
           <li class="list">
             <span>인재채용</span>
-          <span class="divider">|</span>
+          <span class="divider" aria-hidden="true">|</span>
           </li>
           <li class="list">
             <span>입점/제휴문의</span>
-          <span class="divider">|</span>
+          <span class="divider"  aria-hidden="true">|</span>
           </li>
           <li class="list">
             <span>공지사항</span>
-          <span class="divider">|</span>
+          <span class="divider" aria-hidden="true">|</span>
           </li>
           <li class="list">
             <span>고객센터</span>
-          <span class="divider">|</span>
+          <span class="divider" aria-hidden="true">|</span>
           </li>
           <li class="list bold">
             <span>개인정보 처리방침</span>
-          <span class="divider">|</span>
+          <span class="divider" aria-hidden="true">|</span>
           </li>
           <li class="list">
             <span>쿠팡페이 이용약관</span>
-          <span class="divider">|</span>
+          <span class="divider" aria-hidden="true">|</span>
           </li>
           <li class="list bold">
             <span>쿠팡페이 개인정보 처리방침</span>
-          <span class="divider">|</span>
+          <span class="divider" aria-hidden="true">|</span>
           </li>
           <li class="list">
             <span>신뢰관리센터</span>
-          <span class="divider">|</span>
+          <span class="divider" aria-hidden="true">|</span>
           </li>
           <li class="list">
             <span>제휴마케팅</span>
-          <span class="divider">|</span>
+          <span class="divider" aria-hidden="true">|</span>
           </li>
           <li class="list">
             <span>광고안내</span>
-          <span class="divider">|</span>
+          <span class="divider" aria-hidden="true">|</span>
           </li>
         </ul>
         <!-- 푸터정보영역 -->
@@ -172,12 +206,12 @@
             <div class="coupang-service-center-information">
               <div class="service-information-group">
                 <span class="service-information bold">365고객센터</span>
-                <span class="divider">|</span>
+                <span class="divider" aria-hidden="true">|</span>
                 <span class="service-information">전자금융거래분쟁처리담당</span>
               </div>
-              <span class="service-information number">1577-7011</span>
+              <a href="tel:15777011" class="service-information number">1577-701</a>
               <span class="service-information">서울시 송파구 송파대로 570</span>
-              <span class="service-information">email : help@coupang.com</span>
+              <a href="mailto:help@gmail.com" class="service-information">email : help@coupang.com</a>
             </div>
             <div class="coupang-bank-guid">
               <p class="bank-guid bold">우리은행 채무지급보증 안내</p>
@@ -199,9 +233,15 @@
               </p>
             </div>
             <div class="coupang-copylight-sns">
-              <img class="face-book" src="./assets/icon/sns-facebook.svg" alt="페이스북">
-              <img class="naver" src="./assets/icon/sns-naver-blog.svg" alt="네이버">
-              <img class="instagram" src="./assets/icon/sns-instagram.svg" alt="인스타그램">
+               <a href="https://www.facebook.com/">
+                <img class="face-book" src="./assets/icon/sns-facebook.svg" alt="페이스북">
+               </a>
+               <a href="https://section.blog.naver.com/">
+                 <img class="naver" src="./assets/icon/sns-naver-blog.svg" alt="네이버">
+               </a>
+               <a href="https://www.instagram.com/">
+                <img class="instagram" src="./assets/icon/sns-instagram.svg" alt="인스타그램">
+               </a>
             </div>
           </div>
 

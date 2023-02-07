@@ -1,7 +1,5 @@
 /* ---------------------------------------------- */
 /* 헤더                                            */
-.header__inner{
-}
 .category-box{
   background-color: var(--color-blue-600);
   width: 110px;
@@ -29,43 +27,61 @@
 
 /* ---------------------------------------------- */
 /* 내비게이션                                        */
-.navigation__inner{
-  display: flex;
-  flex-direction: column;
-}
+
 .navigation{
   border: 1px solid black;
-  width: 1020px;
+  display: flex;
+  width: 540px;
   height: 520px;
   margin: 0 auto;
+  position: relative;
+  justify-content: space-between;
 }
-.navigation-list-box{
+.navigation-category-box-1Depth-list{
+  display: flex;
+  padding: 12px;
+}
+.category-list{
+  display: flex;
+  width: calc(540px/3);
+  flex-direction: column;
+  gap: 18px;
+  font-size: 12px;
+}
+.navigation__inner-2Depth{
+  padding: 12px;
+  border-left: 1px solid rgba(170 ,169, 169, 0.3);
+  border-right: 1px solid rgba(170, 169, 169, 0.3);
+}
+.category-inner-2Depth-list{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: calc(540px/3);
+  padding: 12px;
+  font-size: 12px;
+  gap: 18px;
+}
+.navigation__inner-3Depth{
+  padding: 12px;
+}
+.category-inner-3Depth-list{
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  width: calc(540px/3);
+  flex: 1;
+  font-size: 12px;
+  gap: 18px;
+
+}
+
+.theme-list{
   display: flex;
   align-items: center;
+  gap: 3px;
 }
-.fashion-stuff-list{
-  display: flex;
-}
-.women-fashion-list{
-  display: flex;
-}
-.women-fashion{
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-.women-clothes-list{
-  display: flex;
-  flex-direction: column;
-  flex: 1;
 
-}
-.women-underwear-list{
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-
-}
 /* ---------------------------------------------- */
 
 
@@ -175,6 +191,10 @@
   position: absolute;
   left: 1280px;
   bottom: 30px;
+}
+.instagram{
+  background: radial-gradient(circle farthest-corner at 32% 106%,#ffe17d 0%,#ffcd69 10%,#fa9137 28%,#eb4141 42%,transparent 82%) , linear-gradient(135deg,#234bd7 12%,#c33cbe 58%);
+  border-radius: 50%;
 }
 
 /* ---------------------------------------------- */
